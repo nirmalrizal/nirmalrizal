@@ -1,0 +1,170 @@
+﻿#home_des_1{
+    background-color: #fff;
+    width: 100%;
+    height: 70%;
+    color: #fff;
+    margin: 0;
+}
+
+#current{
+
+    background-color: #669999;
+    width: 100%;
+    margin: 0;
+    left: 0;
+}
+
+#about_photo{
+    text-align: left;
+    float: left;
+	width: 320px;
+    height: 400px;
+}
+
+#about_des{
+    text-align: left;
+    float: right;
+	width: 800px;
+    height: 400px;
+}
+
+#about_des ul{
+    font-size: 25px;
+}
+
+#about_des ul a:hover{
+    color: #009bdd;
+}
+
+#current-des h1{
+    font-size: 40px;
+}
+#current-des p{
+    font-size: 30px;
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+#current-des a:hover{
+    color: #e60000;
+}
+
+/*animation starts*/
+
+
+#current-des p{
+    opacity: 0;
+}
+
+p.add {
+	-webkit-animation: fade 1s ease-in-out forwards;
+	-webkit-animation-delay: 0.5s;
+	-moz-animation: fade 1s ease-in-out forwards;
+	-moz-animation-delay: 0.5s;
+	-o-animation: fade 1s ease-in-out forwards;
+	-o-animation-delay: 0.5s;
+	animation: fade 1s ease-in-out forwards;
+	animation-delay: 0.5s;
+}
+
+p.campus {
+	-webkit-animation: fade 1s ease-in-out forwards;
+	-webkit-animation-delay: 1s;
+	-moz-animation: fade 1s ease-in-out forwards;
+	-moz-animation-delay: 1s;
+	-o-animation: fade 1s ease-in-out forwards;
+	-o-animation-delay: 1s;
+	animation: fade 1s ease-in-out forwards;
+	animation-delay: 1s;
+}
+
+p.fac {
+	-webkit-animation: fade 1s ease-in-out forwards;
+	-webkit-animation-delay: 1.5s;
+	-moz-animation: fade 1s ease-in-out forwards;
+	-moz-animation-delay: 1.5s;
+	-o-animation: fade 1s ease-in-out forwards;
+	-o-animation-delay: 1.5s;
+	animation: fade 1s ease-in-out forwards;
+	animation-delay: 1.5s;
+}
+
+p.acetech {
+	-webkit-animation: fade 1s ease-in-out forwards;
+	-webkit-animation-delay: 2s;
+	-moz-animation: fade 1s ease-in-out forwards;
+	-moz-animation-delay: 2s;
+	-o-animation: fade 1s ease-in-out forwards;
+	-o-animation-delay: 2s;
+	animation: fade 1s ease-in-out forwards;
+	animation-delay: 2s;
+}
+
+p.csitan {
+	-webkit-animation: fade 1s ease-in-out forwards;
+	-webkit-animation-delay: 2.5s;
+	-moz-animation: fade 1s ease-in-out forwards;
+	-moz-animation-delay: 2.5s;
+	-o-animation: fade 1s ease-in-out forwards;
+	-o-animation-delay: 2.5s;
+	animation: fade 1s ease-in-out forwards;
+	animation-delay: 2.5s;
+}
+
+p.skill {
+	-webkit-animation: fade 1s ease-in-out forwards;
+	-webkit-animation-delay: 3s;
+	-moz-animation: fade 1s ease-in-out forwards;
+	-moz-animation-delay: 3s;
+	-o-animation: fade 1s ease-in-out forwards;
+	-o-animation-delay: 3s;
+	animation: fade 1s ease-in-out forwards;
+	animation-delay: 3s;
+}
+
+@-webkit-keyframes fade {
+	100% { opacity: 1; }
+}
+
+@-moz-keyframes fade {
+	100% { opacity: 1; }
+}
+
+@-o-keyframes fade {
+	100% { opacity: 1; }
+}
+
+@keyframes fade {
+	100% { opacity: 1; }
+}
+
+/*animation ends*/
+
+#education-section{
+    width: 100%;
+    height: 100%;
+    margin: 30px 30px 30px 30px;
+    color: #0086b3;
+}
+
+#college-section{
+    float: right;
+    height: 360px;
+    width: 50%;
+}
+
+#school-section{
+    float: left;
+    height: 360px;
+    width: 50%;
+}
+
+#school-section p{
+    font-size: 25px;
+}
+
+#college-section p{
+    font-size: 25px;
+}

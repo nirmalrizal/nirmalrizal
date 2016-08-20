@@ -1,0 +1,92 @@
+﻿body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Slabo 27px', serif;
+}
+
+body a{
+    text-decoration: none;
+}
+
+#navigation_main{
+    text-align: center;
+    background-color: #fff;
+    font-size: 30px;
+    border-radius: 3px;
+	box-shadow: 2px 2px 2px #d9d9d9;
+    width: 100%;
+}
+
+#navigation_main li a:hover {
+	color: #e60000;
+}
+
+.w3-padding i{
+    font-size: 35px;
+}
+
+a.icon_twitter:hover{
+    color: #00aced;
+}
+
+a.icon_facebook:hover{
+    color: #3b5998;
+}
+
+a.icon_google:hover{
+    color: #dd4b39;
+}
+
+a.icon_instagram:hover{
+    color: #517fa4;
+}
+
+a.icon_youtube:hover{
+    color: #bb0000;
+}
+
+a.icon_linkedin:hover{
+    color: #007bb6;
+}
+
+#content-design{
+    float: right;
+    text-align: right;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    max-width: 100%;
+    height: 120px;
+    max-height: 1400px;
+}
+
+
+#content-logo{
+    float: left;
+    width: 50%;
+    max-width: 100%;
+    height: 120px;
+    max-height: 1400px;
+    padding-top: 10px;
+}
+
+#content-design a{
+    color: #4dc3ff;
+}
+
+#content-design a:hover {
+        color: #e60000;
+}
+
+p#meet-nirmal{
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+
+p#meet-nirmal a{
+    color: #b30000;
+}
+
+
+

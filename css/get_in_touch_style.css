@@ -1,0 +1,59 @@
+﻿#form-main-body{
+    margin: 10px;
+}
+
+#form_body{
+    text-align: left;
+    float: left;
+	color: black;
+	width: 700px;
+    height: 520px;
+	margin: 20px;
+	border-radius: 5px;
+	padding: 15px;
+    margin-top: 30px;
+}
+
+#contact_add{
+    text-align: left;
+    float: right;
+	color: black;
+	width: 500px;
+    height: 520px;
+	margin: 20px;
+	border-radius: 5px;
+	padding: 15px;
+    margin-top: 30px;
+	box-shadow: 2px 2px 2px #888888;
+}
+
+#address{
+    padding: 15px;
+}
+
+#contact_button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 120px;
+}
+
+#contact_button {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+#contact_button:hover {
+    background-color: #555555;
+    color: white;
+}
