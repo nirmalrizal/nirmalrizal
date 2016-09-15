@@ -33,6 +33,10 @@ a.icon_facebook:hover{
     color: #3b5998;
 }
 
+a.icon_github:hover{
+    color: #4183c4;
+}
+
 a.icon_google:hover{
     color: #dd4b39;
 }
